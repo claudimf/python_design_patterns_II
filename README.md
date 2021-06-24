@@ -77,6 +77,12 @@ Para executar um script python, faça conforme o exemplo abaixo:
 docker-compose run --rm app python 01_Factory/conectar_banco.py
 ```
 
+## Memento
+Para executar um script python, faça conforme o exemplo abaixo:
+```sh
+docker-compose run --rm app python 02_Memento/contrato.py
+```
+
 # Sobre o projeto:
 
 ### Permissões de arquivos:
