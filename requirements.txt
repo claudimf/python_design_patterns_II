@@ -1,0 +1,6 @@
+# Mostrar a árvore de pacotes
+pipdeptree==2.0.0
+
+# Plugin para conexão com MySql
+mysql-connector-python==8.0.25
+PyMySQL==1.0.2
