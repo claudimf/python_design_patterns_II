@@ -7,7 +7,7 @@ class Numero(object):
         return self.__numero
 
 
-class Substracao(object):
+class Subtracao(object):
 
     def __init__(self, expressao_esquerda, expressao_direita):
         self.__expressao_esquerda = expressao_esquerda
@@ -35,7 +35,7 @@ class Soma(object):
 
 if __name__ == '__main__':
 
-    expressao_esquerda = Substracao(Numero(10), Numero(5))
+    expressao_esquerda = Subtracao(Numero(10), Numero(5))
     expressao_direita = Soma(Numero(2), Numero(10))
     expressao_conta = Soma(expressao_esquerda, expressao_direita)
 

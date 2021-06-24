@@ -89,6 +89,12 @@ Para executar um script python, faça conforme o exemplo abaixo:
 docker-compose run --rm app python 03_DSL_Interpreter/interpreter.py
 ```
 
+## Visitor
+Para executar um script python, faça conforme o exemplo abaixo:
+```sh
+docker-compose run --rm app python 04_Visitor/visitor.py
+```
+
 # Sobre o projeto:
 
 ### Permissões de arquivos:
@@ -196,6 +202,8 @@ mysql -u root -psecret alura
 
 [8° Interpreter](https://blog.matheuscastiglioni.com.br/interpreter-padroes-de-projeto-em-java/#:~:text=Conhecendo%20o%20padr%C3%A3o%20Interpreter,interpretar%20DSL's%20ou%20criar%20compiladores.)
 
-[9° Visitor](https://refactoring.guru/pt-br/design-patterns/visitor)
+[9° Linguagem de domínio específico](https://pt.wikipedia.org/wiki/Linguagem_de_dom%C3%ADnio_espec%C3%ADfico)
 
-[10° Command](https://refactoring.guru/pt-br/design-patterns/command)
+[10° Visitor](https://refactoring.guru/pt-br/design-patterns/visitor)
+
+[11° Command](https://refactoring.guru/pt-br/design-patterns/command)
