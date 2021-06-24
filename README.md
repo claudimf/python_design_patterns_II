@@ -95,6 +95,12 @@ Para executar um script python, faça conforme o exemplo abaixo:
 docker-compose run --rm app python 04_Visitor/visitor.py
 ```
 
+## Command
+Para executar um script python, faça conforme o exemplo abaixo:
+```sh
+docker-compose run --rm app python 05_Command/command.py
+```
+
 # Sobre o projeto:
 
 ### Permissões de arquivos:
