@@ -83,6 +83,12 @@ Para executar um script python, faça conforme o exemplo abaixo:
 docker-compose run --rm app python 02_Memento/contrato.py
 ```
 
+## DSL e o Interpreter
+Para executar um script python, faça conforme o exemplo abaixo:
+```sh
+docker-compose run --rm app python 03_DSL_Interpreter/interpreter.py
+```
+
 # Sobre o projeto:
 
 ### Permissões de arquivos:
